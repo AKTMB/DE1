@@ -6,6 +6,50 @@ main {
 	font-size: 0;
 }
 
+.topmain {
+	position: fixed;
+	padding-left: 60;
+	width: 100%;
+	background-color: gray;
+	height: 60px;
+	margin-bottom: 10px;
+}
+
+.logo {
+	border-radius: 50px;
+    height: 50px;
+  	margin-top: 5px;
+  	margin-bottom: 5px;
+  	margin-left: 60px;
+  	margin-right: : 60px;
+  	border-radius: 50%;
+  	vertical-align: middle;
+  	border: 1px solid black;
+}
+
+.room {
+	margin-top: 40px;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li::after {
+  content: "|";
+  margin-left: 5px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+
 .frame {
 	width: 800px;
 	display: inline-block;

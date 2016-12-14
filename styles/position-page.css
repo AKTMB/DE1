@@ -68,9 +68,9 @@ main {
 }
 
 .cat {
-	position: relative;
-	right: 100px;
-    top: -350px;
-	width: 200px;
-	height: 200px;
+  position: relative;
+  right: 270px;
+  top: -126px;
+  width: 200px;
+  height: 200px;
 }
